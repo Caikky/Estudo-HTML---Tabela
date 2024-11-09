@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        th, td {
+            border: 1px solid black;
+        }
+        tfoot {
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Alunos</th>
+                <th>Matemática</th>
+                <th>Português</th>
+                <th>Ed.Fisica</th>
+                <th>Aprovado</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Bruno</td>
+                <td>8.5</td>
+                <td>9.0</td>
+                <td>4.5</td>
+                <td rowspan="3">Sim</td>
+            </tr>
+            <tr>
+                <td>Bianca</td>
+                <td>6.0</td>
+                <td>10.0</td>
+                <td>7.5</td>
+            </tr>
+            <tr>
+                <td>Alessandra</td>
+                <td>10.0</td>
+                <td>6.5</td>
+                <td>8.5</td>
+            </tr>
+            <tr>
+                <td>Nicolas</td>
+                <td>4.5</td>
+                <td>6.0</td>
+                <td>3.0</td>
+                <td>Não</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="5">Para aprovação é necessário a nota mínima de 6</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
